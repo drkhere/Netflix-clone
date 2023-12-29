@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1180px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:605px)" href="mobile.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="head-logo h-secondary">Portfolio</div>
+            <ul class="menu v-class-res">
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#my-projects">My Projects</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <div id="intro">
+        <div>
+            <p class="p-primary">Hii! Myself Dayal <br> I'm A Passionate Tech Guy</p>
+            <h2 class="h-primary">SOFTWARE ENGINEER</h2>
+        </div>
+        <div class="logo">
+            <img src="./pictures/logo.png" alt="" class="logo">
+        </div>
+    </div>
+    <hr>
+    <div id="skills">
+        <p class="top-primary">My Skills</p>
+        <div class="skill-set">
+            <div class="skies p-primary">Html</div>
+            <div class="skies p-primary">Css</div>
+            <div class="skies p-primary">javascript</div>
+            <div class="skies p-primary">Php</div>
+            <div class="skies p-primary">Python</div>
+            <div class="skies p-primary">Java</div>
+        </div>
+    </div>
+    <hr>
+    <div id="my-projects">
+        <p class="top-primary">Projects</p>
+        <div class="project-section">
+            <div class="pro">
+                <img src="./pictures/project1.png" alt="Project1">
+                <div class="content">
+                    <p class="h-secondary hide">Netflix Clone</p>
+                    <p class="p-secondary show">It is a clone website fully made by my knowledge<br><a href="#">view</a></p>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="./pictures/project1.png" alt="Project1">
+                <div class="content">
+                    <p class="h-secondary hide">Netflix Clone</p>
+                    <p class="p-secondary show">It is a clone website fully made by my knowledge<br><a href="#">view</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="contacts">
+        <p class="top-primary">Contact Me</p>
+        <div id="contact-box">
+            <form action="/" method="post" onsubmit="resetForm()" id="myForm">
+                <div class="form-group">
+                    <input type="text" name="client_name" class="p-secondary" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="Mail" class="p-secondary" id="mail" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Subject" class="p-secondary" id="number" placeholder="Enter Your Subject">
+                </div>
+                <div class="form-group">
+                    <textarea name="Message" class="p-secondary" id="add" cols="30" rows="5"
+                        placeholder="Enter Your Message"></textarea>
+                </div>
+                <div>
+                    <button class="btn p-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="myinfo">
+            <div class="infoclass">
+                <ul>
+                    <li class="p-secondary"><img src="./pictures/home.png" alt="logo's">Chembur,Mumbai Maharashtra</li>
+                    <li class="p-secondary"><img src="./pictures/phone.png" alt="logo's">9321987595</li>
+                    <li class="p-secondary"><img src="./pictures/email.png" alt="logo's">kawariyadayal@gmail.com</li>
+                </ul>
+            </div>
+            <div class="infoclass">
+                <h2 class="h-primary">My Profile Links</h2>
+                <ul>
+                    <li><img src="./pictures/linkedin.png" alt="linkedIn logo"> <a class="p-secondary"
+                            href="https://www.linkedin.com/in/dayal-kawariya-55a7b9254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">Linked
+                            In</a> </li>
+                </ul>
+            </div>
+        </div>
+        <p class="p-secondary">Copyright &copy; Dayal Kawariya</p>
+    </footer>
+    <script src="brain.js"></script>
+</body>
+
+</html>

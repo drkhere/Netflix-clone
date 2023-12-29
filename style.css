@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display&display=swap');
+
+
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+#navbar::before {
+    content: '';
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#navbar ul {
+    margin-left: 25%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#navbar ul li {
+
+    list-style: none;
+}
+
+#navbar ul li a {
+
+    border-radius: 12px;
+    color: white;
+    margin: 4px;
+    padding: 7px 14px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+
+#navbar ul li a:hover {
+    background: white;
+    color: black;
+
+}
+
+#intro {
+    /* position: relative; */
+    height: 550px;
+    display: flex;
+    padding: 0px 320px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro::before {
+    content: '';
+    position: absolute;
+    background-color: #090921;
+    height: 610px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+#intro div {
+    margin: 20px;
+}
+
+#intro .logo {
+    width: 250px;
+    height: 250px;
+}
+
+#skills {
+    position: relative;
+    height: 612px;
+    flex-direction: column;
+    display: flex;
+    padding: 20px 320px;
+    align-items: center;
+}
+
+#skills::before {
+    content: '';
+    position: absolute;
+    background-color: #090921;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#skills .skill-set {
+    padding: 20px;
+    display: grid;
+    height: 440px;
+    width: 639px;
+    grid-template-columns: repeat(3, 213px);
+}
+
+#skills .skill-set .skies {
+    display: flex;
+    justify-content: center;
+    border-radius: 126px;
+    margin: 35px;
+    align-items: center;
+    background: red;
+    transition: background-color, color, margin 0.5s;
+}
+
+#skills .skill-set .skies:hover {
+    background-color: yellow;
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    cursor: pointer;
+    /* transform: rotate(360deg); */
+}
+
+#my-projects {
+    position: relative;
+    /* height: 795px; */
+    height: 600px;
+    flex-direction: column;
+    display: flex;
+    padding: 20px 120px;
+    align-items: center;
+}
+
+#my-projects::before {
+    content: '';
+    position: absolute;
+    background-color: #090921;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.project-section{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+}
+
+#my-projects .pro {
+    overflow: hidden;
+    border-radius: 200px;
+    margin: 45px;
+    height: 240px;
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro img {
+    height: 200px;
+    transition: height 0.9s ease;
+}
+
+.pro .content {
+    overflow: hidden;
+    height: 100%;
+    background-color: red;
+    opacity: 5;
+    transition: height 1s, padding 1s ease;
+    height: 100%;
+    width: 100%;
+
+}
+
+#my-projects .pro:hover img {
+    height: 0;
+}
+
+#my-projects .pro:hover .content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+/* #my-projects .pro img {
+    height: 200px;
+    transition: height 0.3s ease;
+}
+
+#my-projects .pro .content {
+    overflow: hidden;
+    height: 40px;
+    background-color: red;
+    opacity: 1;
+    transition: height 1s ease, padding 1s;
+}
+
+#my-projects .pro:hover img {
+    height: 0;
+}
+
+#my-projects .pro:hover .content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    transition: height 1s ease; 
+    /* Add transition property here */
+
+#contacts{
+    position: relative;
+    height: 545px;
+    flex-direction: column;
+    display: flex;
+    padding: 20px 320px;
+    align-items: center;
+}
+
+#contacts::before{
+    content: '';
+    position: absolute;
+    background-color: #090921;
+    height: 585px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#contacts #contact-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background: blue; */
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+}
+
+#contact-box form{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+#contact-box input,textarea{
+    text-align: center;
+    border-radius: 12px;
+    width: 93%;
+    background-color: #2e2e32;
+    margin: 10px;
+    height: 50px;
+}
+
+#contact-box button{
+    display: block;
+    margin: 25px auto;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background: red;    margin: 25px auto;
+    width: 100px;
+}
+
+
+#footer{
+    position: relative;
+    height: 240px;
+    flex-direction: column;
+    display: flex;
+    padding: 20px 320px;
+    align-items: center;
+}
+
+#footer .myinfo{
+    width: 100%;
+    height: 220px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.infoclass ul li{
+    display: flex;
+    height: 40px;
+    /* text-align: start; */
+    list-style: none;
+}
+
+.infoclass ul li a{
+    display: flex;
+    height: 40px;
+    /* text-align: start; */
+    text-decoration: none;
+}
+
+.infoclass ul img{
+    padding-right: 10px;
+    height: 25px;
+}
+
+.infoclass h2{
+    margin-bottom: 5px;
+}
+
+#footer::before{
+    content: '';
+    position: absolute;
+    background-color: #363637;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.p-primary {
+    color: white;
+    font-size: 1.5rem;
+    /* text-align: center; */
+}
+
+.h-primary {
+    color: white;
+    font-size: 2.2rem;
+}
+
+hr {
+    color: white;
+}
+
+.top-primary {
+    margin-top: 50px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.h-secondary {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.p-secondary {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
