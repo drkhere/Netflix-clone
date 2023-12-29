@@ -1,0 +1,235 @@
+#navbar ul{
+    padding-left: 10%;
+}
+
+#logo img {
+    height: 79px;
+    width: 109px;
+}
+
+#navbar ul #lang {
+    width: 70px;
+    height: 30px;
+}
+
+#navbar ul button {
+    width: 42px;
+}
+
+#navbar ul .ul1-item {
+    /* border: 2px solid white; */
+    border-radius: 6px;
+    margin: 10px;
+    padding: 6px;
+    font-size: 0.5rem;
+}
+
+#Story1 ul #mail {
+    font-size: 0.4rem;
+    height: 7px;
+    width: 150px;
+}
+
+#Story1 ul #btn2 {
+    background-color: red;
+    color: white;
+    font-size: 0.4rem;
+    border-radius: 6px;
+    height: 30px;
+    width: 75px;
+}
+
+
+#Story1{
+    height: 370px;
+}
+
+
+#Story2{
+    height: 420px;
+    overflow: hidden;
+}
+
+#Story2 .Story2-box{
+    text-align: center;
+    flex-direction: column;
+    padding: 0px;
+}
+
+#Story2 .Story2-box .tv {
+    padding: 15px;
+    height: 120px;
+    width: 200px;
+}
+
+#Story2 .Story2-box .tv img {
+    height: 140px;
+    width: 200px;
+}
+
+#Story2 .Story2-box .tv video {
+    padding-left: -32px;
+    padding-top: 3px;
+    /* padding: 5px; */
+    width: 145px;
+    height: 98px;
+    padding-left: 27px;
+    position: absolute;
+    object-fit: cover;
+    opacity: 1.5;
+}
+#Story3{
+    height: 420px;
+    overflow: hidden;    
+}
+
+#Story3 .Story3-box{
+    text-align: center;
+    flex-direction: column-reverse;
+    padding: 0px;
+}
+
+#Story3 .Story3-box .tv{
+    padding: 15px;
+    height: 120px;
+    width: 200px;
+
+}
+
+#Story3 .Story3-box .tv img{
+    height: 140px;
+    width: 200px;
+
+}
+
+#Story4{
+    height: 420px;
+    overflow: hidden;    
+}
+
+#Story4 .Story4-box{
+    text-align: center;
+    flex-direction: column;
+    padding: 0px;
+}
+
+#Story4 .Story4-box .tv{
+    padding: 15px;
+    height: 120px;
+    width: 200px;
+
+}
+
+#Story4 .Story4-box .tv img{
+    height: 140px;
+    width: 200px;
+
+}
+
+#Story5{
+    height: 460px;
+    overflow: hidden;    
+}
+
+#Story5 .Story5-box{
+    text-align: center;
+    flex-direction: column-reverse;
+    padding: 0px;
+}
+
+#Story5 .Story5-box .tv{
+    padding: 15px;
+    height: 120px;
+    width: 200px;
+
+}
+
+#Story5 .Story5-box .tv img{
+    height: 140px;
+    width: 200px;
+
+}
+
+#Faq .faq-ul #mail2{
+    font-size: 0.4rem;
+    height: 7px;
+    width: 150px;
+}
+
+#Faq ul #btn2 {
+    background-color: red;
+    color: white;
+    font-size: 0.4rem;
+    border-radius: 6px;
+    height: 30px;
+    width: 75px;
+}
+
+
+.Question{
+    padding: 40px 20px;
+}
+
+.Question li label {
+    padding: 20px;
+}
+
+.Question li input[type="radio"]:checked+label+.content {
+    height: 100%;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+#contact-section{
+    padding: 2px 20px;
+}
+
+#contact-section .cont{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2,125px);
+
+}
+
+
+#contact-section .contsec{
+    padding: 10px;
+}
+
+#contact-section ul #lang {
+    width: 59px;
+    height: 21px;
+    background-color: black;
+    color: white;
+}
+
+#contact-section ul .ul1-item {
+    /* border: 2px solid white; */
+    border-radius: 6px;
+    margin: 10px;
+    /* padding: 6px; */
+    font-family: 'Bree Serif', serif;
+    font-size: 0.4rem;
+}
+
+.h-primary{
+    font-size: 1.2rem;
+}
+
+.p-primary{
+    font-size: 0.8rem;
+}
+
+.h2-primary{
+    font-size: 1.2rem;
+}
+
+.p2-primary{
+    font-size: 0.8rem;
+}
+
+.p3-primary{
+    font-size: 0.5rem;
+    color: white;
+    list-style: none;
+}

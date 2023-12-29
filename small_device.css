@@ -1,0 +1,154 @@
+
+#Story1 ul #mail {
+    align-items: center;
+    /* margin-left: 85px; */
+    padding-left: 0px;
+    height: 26px;
+    padding: 10px;
+    width: 296px;
+}
+
+#Story1 ul #btn2 {
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 6px;
+    height: 50px;
+    width: 150px;
+}
+
+#Story2 .Story2-box{
+    text-align: center;
+    flex-direction: column;
+    padding: 0px;
+}
+
+#Story2 .Story2-box .tv{
+    padding: 15px;
+    height: 200px;
+    width: 400px;
+
+}
+
+#Story2 .Story2-box .tv img{
+    height: 250px;
+    width: 395px;
+
+}
+
+#Story2 .Story2-box .tv video {
+    padding-left: -32px;
+    padding-top: 3px;
+    /* padding: 5px; */
+    width: 288px;
+    height: 176px;
+    padding-left: 53px;
+    position: absolute;
+    object-fit: cover;
+    opacity: 1.5;
+}
+
+
+#Story3 .Story3-box{
+    text-align: center;
+    flex-direction: column-reverse; 
+    padding: 0px;   
+}
+
+#Story3 .Story3-box .tv{
+    padding: 15px;
+    height: 200px;
+    width: 400px;
+
+}
+
+#Story3 .Story3-box .tv img{
+    height: 250px;
+    width: 395px;
+
+}
+
+#Story4 .Story4-box{
+    text-align: center;
+    flex-direction: column;
+    padding: 0px;    
+}
+
+#Story4 .Story4-box .tv{
+    padding: 15px;
+    height: 200px;
+    width: 400px;
+
+}
+
+#Story4 .Story4-box .tv img{
+    height: 250px;
+    width: 395px;
+
+}
+
+#Story5 .Story5-box{
+    text-align: center;
+    flex-direction: column-reverse;
+    padding: 0px;    
+}
+
+#Story5 .Story5-box .tv{
+    padding: 15px;
+    height: 200px;
+    width: 400px;
+
+}
+
+#Story5 .Story5-box .tv img{
+    height: 250px;
+    width: 395px;
+
+}
+
+#contact-section{
+    padding: 2px 100px;
+    
+}
+
+#contact-section .cont{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2,280px);
+
+}
+
+
+#Faq ul #btn2 {
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 6px;
+    height: 50px;
+    width: 150px;
+}
+
+#Faq .faq-ul #mail2{
+    align-items: center;
+    /* margin-left: 85px; */
+    padding-left: 0px;
+    height: 26px;
+    padding: 10px;
+    width: 296px;
+}
+
+
+.Question li label{
+    padding: 20px;
+}
+
+.h-primary{
+    font-size: 2.4rem;
+}
+
+.p-primary{
+    font-size: 1.2rem;
+}
+.h2-primary{
+    font-size: 2.4rem;
+}
